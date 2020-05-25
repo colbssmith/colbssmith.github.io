@@ -1,0 +1,258 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	vertical-align: baseline;
+	font-size: 100%;
+}
+
+.logo {
+	font-family: 'Rock Salt', cursive;
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 72px;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 48px;
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 24px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+body {
+	width: 100%;
+	background: black;
+	cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👆</text></svg>") 16 0,auto; /*!emojicursor.app*/;
+}
+
+a:hover {
+	cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>👆</text></svg>") 16 0,auto; /*!emojicursor.app*/;;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.navBar::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* navbar */
+
+nav {
+	height: 70px;
+	line-height: 70px;
+}
+
+.navBar a:hover {
+	background-color: black;
+	color: lightgrey;
+}
+
+/* header */
+
+header{
+	margin: 300px 0 600px 120px;
+
+}
+
+header p{
+	width: 60%;
+	margin-top:  10px;
+}
+
+.socialmediaiconsheader a {
+	color: lightgrey;
+	font-size: 36px;
+	text-decoration: none;
+}
+
+/* header2*/
+
+.header2 {
+	margin: 130px 0 80px 40px;
+}
+
+/* .myportfolio */
+
+.myportfolio {
+	text-align: center;
+	width: 98%;
+}
+
+.myportfolio img {
+	margin: 1%;
+	width: 45%;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */;
+}
+
+.myportfolio img:hover {
+	-webkit-filter: none;
+	-moz-filter: none;
+	-ms-filter: none;
+	filter: none;
+}
+
+/* header3 */
+
+.header3 {
+	margin: 130px 0 80px 40px;
+}
+
+/* .otherprojects */
+
+.otherprojects {
+	text-align: center;
+	width: 98%;
+}
+
+.otherprojects img{
+	margin: 1%;
+	width: 45%;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */;
+}
+
+.otherprojects img:hover {
+	-webkit-filter: none;
+	-moz-filter: none;
+	-ms-filter: none;
+	filter: none;
+}
+
+/* footer */
+
+.socialmediaiconsfooter a {
+	color: lightgrey;
+	font-size: 24px;
+	display: inline !important;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.header4 {
+	text-align: center;
+}
+
+footer p {
+	font-family: 'Roboto',sans-serif;
+	font-style: 12px;
+	text-align: center;
+	text-decoration: none;
+	color: darkgrey;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 991px) {
+	.logo {
+		font-size: 12px;
+		width: 90%;
+	}
+
+	header {
+		text-align: left;
+		margin: 100px 0 400px 30px;
+	}
+
+	h1 {
+		font-size: 36px;
+		width: 90%;
+	}
+
+	.socialmediaiconsheader a {
+		font-size: 18px;
+	}
+
+	header p {
+		font-size: 12px;
+		width: 90%;
+	}
+
+	.header2 {
+		margin: 130px 0 40px 12px;
+	}
+
+	.header2 h2{
+		font-size: 24px;
+		width: 90%;
+	}
+
+	.header2 p {
+		font-size: 12px;
+		width: 90%;
+	}
+
+	.myportfolio img {
+		margin: 2%;
+		width: 90%;
+	}
+
+	.header3 {
+		margin: 130px 0 40px 12px;
+	}
+
+	.header3 h2 {
+		font-size: 24px;
+		width: 90%;
+	}
+
+	.header3 p {
+		font-size: 12px;
+		width: 90%;
+	}
+
+	.otherprojects img {
+		margin: 2%;
+		width: 90%
+	}
+
+	.header4 h4 {
+		font-size: 18px;
+		width: 100%;
+	}
+
+	footer p {
+		font-size: 10px;
+	}
+
+	.socialmediaiconsfooter a {
+		font-size: 18px;
+	}
+}
