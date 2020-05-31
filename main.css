@@ -215,10 +215,8 @@ footer p {
 		width: 90%;
 	}
 
-	@media (max-width: 991px) {
-		header img {
-			display: none;
-		}
+	header img {
+		display: none;
 	}
 
 	.socialmediaiconsheader a {
